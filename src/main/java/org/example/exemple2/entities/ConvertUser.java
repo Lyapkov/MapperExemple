@@ -15,6 +15,8 @@ public class ConvertUser {
     private int id;
     private String firstName;
     private String lastName;
-    private Integer age;
+    private String age;
     private List<ConvertHand> hands;
+
+    private Integer extraConvert;
 }

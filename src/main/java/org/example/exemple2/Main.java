@@ -10,9 +10,10 @@ public class Main {
     public static void main(String[] args) {
         User user = User.builder()
                 .id(1)
-                .firstName("имя")
+                .name("имя")
                 .lastName("Фамилия")
                 .age(20)
+                .extra("extra")
                 .hands(List.of(
                         Hand
                                 .builder()
@@ -25,9 +26,6 @@ public class Main {
                 .build();
 
         System.out.println(user);
-        System.out.println(
-                new UserMapper().convertToConvertUser(
-                        user
-                ));
+        System.out.println(new UserMapper().convertToConvertUser(user));
     }
 }

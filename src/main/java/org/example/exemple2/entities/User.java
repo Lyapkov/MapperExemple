@@ -13,8 +13,10 @@ import java.util.List;
 @Data
 public class User {
     private int id;
-    private String firstName;
+    private String name;
     private String lastName;
     private Integer age;
     private List<Hand> hands;
+
+    private String extra;
 }
