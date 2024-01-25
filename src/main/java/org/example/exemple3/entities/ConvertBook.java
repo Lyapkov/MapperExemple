@@ -9,11 +9,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class User {
-
-    private Integer a;
-    private String b;
-    private String c;
-    private String d;
-    private String e;
+public class ConvertBook {
+//    private Integer playLength;
+//    private String reader;
+    private Long id;
+    private String bookName;
+    private String index;
+    private String comment;
 }

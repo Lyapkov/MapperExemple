@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ConvertUser {
-    private String a;
-    private String b;
-    private String c;
-    private String d;
-    private String e;
+public class Book {
+    private Long id;
+    private String bookName;
+    private String index;
+    private String comment;
 }
